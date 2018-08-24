@@ -90,7 +90,7 @@ class GetCustomers extends AbstractSync
             $maxperpage = $request->getParam('maxperpage', self::MAX_CUSTOMER_PERPAGE);
             $websiteId = $this->helper->getWebsiteId();
             $storeId = $this->helper->getStoreId();
-            $customerData = '';
+            $customerData = [];
             
             $custGroups = $this->helper->getCustomerGroups();
             
