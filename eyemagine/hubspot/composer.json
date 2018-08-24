@@ -1,0 +1,17 @@
+{
+    "name": "eyemagine/hubspot",
+    "description": "HubSpot Integration with Magento",
+    "type": "magento2-module",
+    "version": "2.0.4",
+    "license": [
+        "http://www.eyemaginetech.com/license"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Eyemagine\\HubSpot\\": ""
+        }
+    }
+}
