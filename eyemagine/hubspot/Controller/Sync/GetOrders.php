@@ -80,7 +80,7 @@ class GetOrders extends AbstractSync
             $websiteId = $this->helper->getWebsiteId();
             $storeId = $this->helper->getStoreId();
             $stores=$this->helper->getStores();
-            $orderData = '';
+            $orderData = [];
             
             $custGroups = $this->helper->getCustomerGroups();
             $orderCollection = $this->orderCollection->create()
